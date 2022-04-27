@@ -1,9 +1,9 @@
 ---
 # banner
 banner:
-  title: "Andromeda is the most intuitive way to prototype Designs"
-  button: "Get Premium Version"
-  button_link: "https://gethugothemes.com/products/andromeda/"
+  title: "DemoSquare automates your political and regulatory monitoring"
+  button: "Contact us"
+  button_link: "mailto:contact@demosquare.ch"
   image: "images/banner-app.png"
 
 
