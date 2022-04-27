@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title: "DemoSquare automates your political and regulatory monitoring"
+  title: "DemoSquare automates your political monitoring <br>with machine learning"
   button: "Contact us"
   button_link: "mailto:contact@demosquare.ch"
   image: "images/banner.png"
@@ -9,7 +9,7 @@ banner:
 
 # brands
 brands_carousel:
-  enable: true
+  enable: false
   brand_images:
   - "images/brands/01-colored.png"
   - "images/brands/02-colored.png"
@@ -27,33 +27,24 @@ brands_carousel:
 # features
 features:
   enable: true
-  subtitle: "Special Features"
-  title: "Elements to <br> get you started"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
+  subtitle: "Solution"
+  title: "Save time, reduce risks, increase impact"
+  description: "Never miss out on the latest updates of legislative procedures. Easily obtain hidden insights from complex political data <br>thanks to our built-in algorithms. Visualize the progress of procedures and anticipate the next steps."
   features_blocks:
-  - icon: "las la-lock"
-    title: "Updated Security"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-magnet"
-    title: "Magnetic Turning"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-tachometer-alt"
-    title: "Secured &amp; up-to-date"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-link"
-    title: "Instant Link Sharing"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-lock"
-    title: "Updated Security"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-magnet"
-    title: "Magnetic Turning"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+  - icon: "las la-laptop-code"
+    title: "Real-Time Monitoring"
+    content: "We monitor the legislative process in real time 24/7 and notify you whenever a change occurs so that you never miss important information."
+  - icon: "las la-chart-line"
+    title: "Predictive Analytics"
+    content: "Our machine learning algorithms provide you with advanced analytics to extract hidden insights from complex political data."
+  - icon: "las la-project-diagram"
+    title: "Interactive Visualization"
+    content: "Our platform enables you to generate compelling visualizations of political data from a variety of sources to calibrate your strategy."
 
 
 # intro_video
 intro_video:
-  enable: true
+  enable: false
   subtitle: "Short Intro Video"
   title: "Built exclusively for you"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
@@ -65,20 +56,27 @@ intro_video:
 how_it_works:
   enable: true
   block:
-  - subtitle: "Primary Speciality"
-    title: "You Will Not miss Your All misunderstandings"
-    description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the."
-    image: "images/features-01.png"
+  - subtitle: "Real-Time Monitoring"
+    title: "Never miss out on any legislative changes"
+    description: "We monitor 24/7 Curia Vista, the news outlets, and Twitter. You filter by keywords, reference numbers, dates, or topics. We send you email notifications whenever a change occurs."
+    image: "images/feature-monitoring.png"
 
-  - subtitle: "Secondary Speciality"
-    title: "Say hello to no-code The Advance Creation"
-    description: "From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code."
-    image: "images/features-02.png"
+  - subtitle: "Predictive Analytics"
+    title: "Use our predictive models to analyze political data"
+    description: "Our machine learning algorithms predict upcoming parliamentary votes and the probability of adoption of open amendment. Our speech analysis model automatically identifies the ideological position of parliamentarians on different topics."
+    image: "images/feature-vote-prediction.png"
+
+  - subtitle: "Interactive Visualization"
+    title: "Explore and Combine Votes, Amendments, Speeches, and More"
+    description: "We provide you with an interface to ease the reading, analysis, and management of amendments (no more <em>Fahnen</em>!). You create and export vote tables in one click to identify key information and focus on what's important for you."
+    image: "images/feature-speech.png"
+
+
 
 
 # testimonials
 testimonials:
-  enable: true
+  enable: false
   subtitle: "Our Testimonials"
   title: "Don't take our word for it"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
