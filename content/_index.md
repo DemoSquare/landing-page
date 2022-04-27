@@ -4,7 +4,7 @@ banner:
   title: "DemoSquare automates your political and regulatory monitoring"
   button: "Contact us"
   button_link: "mailto:contact@demosquare.ch"
-  image: "images/banner-app.png"
+  image: "images/banner.png"
 
 
 # brands
