@@ -52,7 +52,8 @@ button:focus {
   outline: 0;
 }
 a {
-  color: lighten($black, 53.33);
+  // color: lighten($black, 53.33);
+  color: $black;
   transition: all 0.3s;
   &:hover {
     text-decoration: none;
