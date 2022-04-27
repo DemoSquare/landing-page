@@ -22,7 +22,7 @@ header {
   z-index: 1000;
   background-color: $white;
   padding: 30px 0;
-  transition: .15s ease-out;
+  transition: 0.15s ease-out;
 
   @include tablet {
     padding: 20px 0;
@@ -57,7 +57,7 @@ header {
     font-size: 36px;
     color: lighten($black, 13.33);
     border: 0;
-    transition: .3s ease;
+    transition: 0.3s ease;
 
     @include tablet {
       font-size: 32px;
@@ -72,7 +72,7 @@ header {
     .nav-link {
       font-weight: 500;
       font-size: 16px;
-      color: lighten($black, 13.33) !important;
+      color: lighten($black, 0) !important;
       padding: 15px 17px !important;
 
       @include desktop-lg {
@@ -82,12 +82,12 @@ header {
 
     .nav-link:hover,
     &.active .nav-link {
-      color: $primary-color !important
+      color: $primary-color !important;
     }
     &.dropdown .nav-link::after {
       display: inline-block;
-      vertical-align: .255em;
-      content: "";
+      vertical-align: 0.255em;
+      content: '';
       height: 9px;
       width: 9px;
       border: 2px solid;
@@ -109,11 +109,11 @@ header {
 
     li {
       &:first-child {
-        margin-top: 12px
+        margin-top: 12px;
       }
 
       &:last-child {
-        margin-bottom: 12px
+        margin-bottom: 12px;
       }
     }
 
@@ -130,7 +130,7 @@ header {
         color: $primary-color;
         background-color: lighten($primary-color, 40);
       }
-      
+
       &.active {
         color: $primary-color;
         background-color: transparent;
@@ -143,7 +143,7 @@ header {
     }
   }
 
-  @media (min-width:991px) {
+  @media (min-width: 991px) {
     .dropdown-menu {
       display: block;
       visibility: hidden;
@@ -155,7 +155,7 @@ header {
       background-color: transparent;
       &::after {
         position: absolute;
-        content: "";
+        content: '';
         height: 0;
         width: 100%;
         top: 0;
@@ -170,7 +170,7 @@ header {
       li {
         transform: translateY(20px);
         opacity: 0;
-        transition: .1s;
+        transition: 0.1s;
       }
     }
 
@@ -184,13 +184,13 @@ header {
       li {
         opacity: 1;
         transform: translateY(0);
-        transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
       }
       $base-time: 0.05;
       $max-menu-item: 10;
       @for $i from 1 through $max-menu-item {
         li:nth-child(#{$i}) {
-          transition-delay: $i*$base-time+s;
+          transition-delay: $i * $base-time + s;
         }
       }
     }

@@ -9,8 +9,8 @@
 # customize your color and font from here.
 [params.variables]
 white = "#F7F8FF"
-black = "#000000"
-light = "#FAFAFA"
+black = "#2B2D6A"
+light = "#7DACF4"
 primary_color = "#0062E8"
 
 # font variable
