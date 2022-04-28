@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 # baseURL = "https://www.demosquare.ch/"
 baseURL = "https://demosquare.github.io/landing-page/"
-title = "Andromeda-light - Software and SAAS Landing Hugo Theme"
+title = "DemoSquare - Democratize Democracy"
 theme = "andromeda-light"
 # post pagination
 paginate = "6"
