@@ -19,7 +19,7 @@ footer_info = "DemoSquare automates your political monitoring with machine learn
 contact_form_action = "https://formspree.io/f/xgernlzd" # contact form works with https://formspree.io
 
 # copyright
-copyright = "Copyright &copy; <script>document.write(new Date().getFullYear())</script> DemoSquare"
+copyright = "Copyright &copy; <script>document.write(new Date().getFullYear())</script>&nbsp;DemoSquare"
 
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
