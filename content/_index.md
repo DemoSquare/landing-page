@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title: "DemoSquare automates your political monitoring <br>with machine learning"
+  title: "Automate your political and regulatory monitoring <br>with machine learning"
   button: "Contact us"
   button_link: "mailto:contact@demosquare.ch"
   image: "images/banner.png"
