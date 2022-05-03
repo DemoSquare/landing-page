@@ -68,9 +68,12 @@ button = "I Accept"
 [cta]
 enable = true
 title = "Become an Early Adopter!"
-content = "DemoSquare is currently under development. Become an early adopter <br>or learn more about us by sending us an email."
-button = "Contact us"
-button_link = "mailto:contact@demosquare.ch"
+content = "DemoSquare is currently under development. <br>Become an early adopter by requesting a demo or learn more about us by sending us an email."
+button_1 = 'Request a demo'
+button_1_link = 'https://calendly.com/demosquare/victor-kristof'
+button_1_new_tab = true
+button_2 = 'Contact us'
+button_2_link = 'mailto:contact@demosquare.ch'
 
 ############################# social site ########################
 # [[social]]

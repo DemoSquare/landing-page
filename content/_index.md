@@ -2,8 +2,11 @@
 # banner
 banner:
   title: "Automate your political and regulatory monitoring <br>with machine learning"
-  button: "Contact us"
-  button_link: "mailto:contact@demosquare.ch"
+  button_1: 'Request a demo'
+  button_1_link: 'https://calendly.com/demosquare/victor-kristof'
+  button_1_new_tab: true
+  button_2: 'Contact us'
+  button_2_link: 'mailto:contact@demosquare.ch'
   image: "images/banner.png"
 
 
@@ -58,11 +61,11 @@ how_it_works:
   block:
   - subtitle: "Real-Time Monitoring"
     title: "Never miss out on any legislative changes"
-    description: "We monitor 24/7 Curia Vista, the news outlets, and Twitter. You filter by keywords, reference numbers, dates, or topics. We send you email notifications whenever a change occurs."
+    description: "We monitor 24/7 the Curia Vista database, the news outlets, and Twitter. You filter by keywords, reference numbers, dates, or topics. We send you email notifications whenever a change occurs."
     image: "images/feature-monitoring.png"
 
   - subtitle: "Predictive Analytics"
-    title: "Use our predictive models to analyze political data"
+    title: "Analyze political data with our predictive models"
     description: "Our machine learning algorithms predict upcoming parliamentary votes and the probability of adoption of open amendment. Our speech analysis model automatically identifies the ideological position of parliamentarians on different topics."
     image: "images/feature-vote-prediction.png"
 
